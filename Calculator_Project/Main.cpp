@@ -5,6 +5,7 @@ using namespace std;
 int First_Value;
 int Second_Value;
 int Third_Value;
+int Fourth_Value;
 int selection;
 int calculation;
 
