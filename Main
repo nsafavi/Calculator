@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int First_Value;
+	int Second_Value;
+	int selection;
+	int calculation;
+
+
+	cout << "Enter the first value: ";
+	cin >> First_Value;
+
+	cout << "\nEnter the second value: ;
+	cin >> Second_Value;
+
+	cout << "Choose an operation... \n
+	1 - Sum (+)\n
+	2 - Subract (-)\n
+	3 - Multiply (*)\n
+	4 - Divide (/)\n";
+	cin >> selection;
+
+	calculate();
+
+	cout <<"\n" + caclulation
+
+
+	calculate(){
+	if(selection == 1){
+	First_Value + Second_Value = Calculation;}
+
+	else if(selection == 2){
+	First_Value - Second_Value = Calculation;}
+
+	else if(selection == 3){
+	First_Value * Second_Value = Calculation;}
+
+	else if(selection == 4){
+	First_Value / Second_Value = Calculation;}
+	}
+return 0;
+
+}
