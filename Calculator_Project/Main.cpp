@@ -4,6 +4,7 @@ using namespace std;
 
 int First_Value;
 int Second_Value;
+int Third_Value;
 int selection;
 int calculation;
 
@@ -16,7 +17,7 @@ int main() {
 	cin >> First_Value;
 
 	cout << "\nEnter the second value: ";
-	cin >> Second_Value;
+	cin >> Second_Value; 
 
 	cout << "Choose an operation... \n";
 	cout << "1 - Sum (+) \n";
