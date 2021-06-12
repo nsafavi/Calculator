@@ -10,3 +10,6 @@ By Swagnerds: Nazila, David and Joe
 	Result integer limit: 20000000.
 	Operations: Addition, Subtraction, Multiplication, Division.
 	
+6/11/2021
+The team met again, along 2 other contributors, Orlando and Donte. Nazila added them to as contributors. David proposed a pgorgram and troubleshoot. Got it to work. In our next meeting, in 2 weeks the plan is for individuals to propose a mod or addition to the code. 
+David also went over how he incorporated Visual Studio from GitHub. 
