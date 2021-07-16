@@ -1,46 +1,65 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
+int Num1;
+int Num2;
+int Num3;
+int Num4;
+int selection;
+int calculation;
+char cont = 'y';
 
-	int First_Value;
-	int Second_Value;
-	int selection;
-	int calculation;
+void equation();
+void calculate();
 
+int main() {
 
-	cout << "Enter the first value: ";
-	cin >> First_Value;
-
-	cout << "\nEnter the second value: ;
-	cin >> Second_Value;
-
-	cout << "Choose an operation... \n
-	1 - Sum (+)\n
-	2 - Subract (-)\n
-	3 - Multiply (*)\n
-	4 - Divide (/)\n";
-	cin >> selection;
-
+	while(cont == 'y'){
+	equation();
 	calculate();
-
-	cout <<"\n" + caclulation
-
-
-	calculate(){
-	if(selection == 1){
-	First_Value + Second_Value = Calculation;}
-
-	else if(selection == 2){
-	First_Value - Second_Value = Calculation;}
-
-	else if(selection == 3){
-	First_Value * Second_Value = Calculation;}
-
-	else if(selection == 4){
-	First_Value / Second_Value = Calculation;}
+	cout << "Do you have another calculation? Y/N: \n";
+	cin >> cont;
 	}
-return 0;
+	return 0;
+}
 
+void equation() {
+	cout << "\n\nEnter the first value: ";
+	cin >> Num1;
+	cout << "\n1 - Sum (+) \n";
+	cout << "2 - Subract (-) \n";
+	cout << "3 - Multiply(*)\n";
+	cout << "4 - Divide(/)\n";
+	cout << "Choose an operation: ";
+	cin >> selection;
+	cout << "\n";
+	cout << "Enter the second value: ";
+	cin >> Num2;
+}
+
+void calculate() {
+	// Was anyone able to do the "BREAK" functions?
+	if (selection == 1) {
+		calculation = Num1 + Num2;
+		cout << "\n" << Num1 << " + " << Num2 << " =  " << calculation << "\n\n\n";
+	}
+
+	else if (selection == 2) {
+		calculation = Num1 - Num2;
+		cout << "\n" << Num1 << " + " << Num2 << " =  " << calculation << "\n\n\n";
+	}
+
+	else if (selection == 3) {
+		calculation = Num1 * Num2;
+		cout << "\n" << Num1 << " + " << Num2 << " =  " << calculation << "\n\n\n";
+	}
+
+	else if (selection == 4) {
+		calculation = Num1 / Num2;
+		cout << "\n" << Num1 << " + " << Num2 << " =  " << calculation << "\n\n\n";
+	}
+	else {
+		cout << "Invalid input Try again\n\n";
+		cont == 'y';
+	}
 }
